@@ -1,0 +1,13 @@
+li	{
+	border: 2px red solid;
+}
+/* to select a specific ID from the html, use a # in CSS file */
+/* to select a class (to change multiple things to the same format)
+use a dot after the name of the class in CSS */
+#special {
+	background: yellow;
+}
+
+.completed {
+	text-decoration: line-through;
+}
