@@ -20,3 +20,9 @@ h3 {
 	text-align: center; 
 	text-shadow: 1px 0 0 #fff; 
 }
+
+p {
+	color: #2CA4B0;
+	font-family: 'Oleo Script';
+	font-size: 15px;
+}
