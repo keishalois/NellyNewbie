@@ -18,12 +18,12 @@ h1 {
 	color: #2CA4B0; 
 	font-family: 'Handlee', cursive;
 	overflow: hidden;
-	border-right: .15em solid blue;
+	border-right: .10em solid #2CA4B0;
 	white-space: nowrap;
 	font-size: 24px; 
 	font-weight: normal; 
 	line-height: 32px; 
-	margin: 0 auto; 
+	margin: 0 0 18px; 
 	text-align: center; 
 	text-shadow: 1px 0 0 #fff;
 	animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
@@ -36,7 +36,7 @@ h1 {
 
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: blue }
+  50% { border-color: #2CA4B0 }
 }
 
 p {
