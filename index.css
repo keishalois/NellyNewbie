@@ -1,6 +1,10 @@
+body { background: #FFECE3;
+	text-align: center;
+}
+
 h1 { 
 	color: #1F5FA3; 
-	font-family: "Great Vibes", cursive; 
+	font-family: 'Handlee', cursive;
 	font-size: 165px; 
 	line-height: 160px; 
 	font-weight: normal; 
@@ -12,11 +16,17 @@ h1 {
 
 h3 { 
 	color: #2CA4B0; 
-	font-family: 'Oleo Script', cursive; 
+	font-family: 'Handlee', cursive;
 	font-size: 24px; 
 	font-weight: normal; 
 	line-height: 32px; 
 	margin: 0 0 18px; 
 	text-align: center; 
 	text-shadow: 1px 0 0 #fff; 
+}
+
+p {
+	color: #2CA4B0;
+	font-family: 'ABeeZee', sans-serif;
+	font-size: 15px;
 }
