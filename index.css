@@ -2,11 +2,6 @@ body { background: #FFECE3;
 	text-align: center;
 }
 
-.jumbotron {
-	border-top: solid white 50px;
-	background-color: #FFCCCC;
-}
-
 h1 { 
 	color: #1F5FA3; 
 	font-family: 'Handlee', cursive;
