@@ -14,15 +14,29 @@ h1 {
 	text-shadow: 0 1px 1px #fff; 
 }
 
-h3 { 
+.typewriter h3 { 
 	color: #2CA4B0; 
 	font-family: 'Handlee', cursive;
+	overflow: hidden;
+	border-right: .15em solid blue;
+	white-space: nowrap;
 	font-size: 24px; 
 	font-weight: normal; 
 	line-height: 32px; 
-	margin: 0 0 18px; 
+	margin: 0 auto; 
 	text-align: center; 
-	text-shadow: 1px 0 0 #fff; 
+	text-shadow: 1px 0 0 #fff;
+	animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
 }
 
 p {
