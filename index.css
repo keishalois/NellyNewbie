@@ -13,6 +13,7 @@ body { background: #FFECE3;
 	text-align: center; 
 	text-shadow: 0 1px 1px #fff; 
 }
+
 @keyframes pulse {
   0% {
 	font-color: #1F5FA3;
