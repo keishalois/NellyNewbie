@@ -31,12 +31,12 @@ h1 {
 
 @keyframes typing {
   from { width: 0 }
-  to { width: 100% }
+  to { width: 80% }
 }
 
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: orange }
+  50% { border-color: blue }
 }
 
 p {
