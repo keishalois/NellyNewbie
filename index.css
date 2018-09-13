@@ -23,7 +23,7 @@ h1 {
 	font-size: 24px; 
 	font-weight: normal; 
 	line-height: 32px; 
-	margin: 0 0 18px; 
+	margin: 0 auto; 
 	text-align: center; 
 	text-shadow: 1px 0 0 #fff;
 	animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
