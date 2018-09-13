@@ -3,7 +3,7 @@ body { background: #FFECE3;
 }
 
 .element h1 { 
-	animation: pulse 6s infinite;
+	animation: pulse 4s infinite;
 	font-family: 'Handlee', cursive;
 	font-size: 165px; 
 	line-height: 160px; 
@@ -18,7 +18,7 @@ body { background: #FFECE3;
 	font-color: #1F5FA3;
   }
   100% {
-	font-color: #730099;
+	font-color: #b300b3;
   }
 }
 
