@@ -2,8 +2,8 @@ body { background: #FFECE3;
 	text-align: center;
 }
 
-h1 { 
-	color: #1F5FA3; 
+.element h1 { 
+	animation: pulse 6s infinite;
 	font-family: 'Handlee', cursive;
 	font-size: 165px; 
 	line-height: 160px; 
@@ -12,6 +12,14 @@ h1 {
 	margin-top: 40px; 
 	text-align: center; 
 	text-shadow: 0 1px 1px #fff; 
+}
+@keyframes pulse {
+  0% {
+	color: #1F5FA3;
+  }
+  100% {
+	color: #730099;
+  }
 }
 
 .typewriter h3 { 
