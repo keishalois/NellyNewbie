@@ -2,8 +2,8 @@ body { background: #FFECE3;
 	text-align: center;
 }
 
-h1 { 
-	color: #1F5FA3; 
+.element h1 { 
+	animation: pulse 6s infinite;
 	font-family: 'Handlee', cursive;
 	font-size: 165px; 
 	line-height: 160px; 
@@ -14,15 +14,38 @@ h1 {
 	text-shadow: 0 1px 1px #fff; 
 }
 
-h3 { 
+@keyframes pulse {
+  0% {
+	color: #1F5FA3;
+  }
+  100% {
+	color: #E6005C;
+  }
+}
+
+.typewriter h3 { 
 	color: #2CA4B0; 
 	font-family: 'Handlee', cursive;
+	overflow: hidden;
+	white-space: nowrap;
+	border-right: .10em solid #2CA4B0;
 	font-size: 24px; 
 	font-weight: normal; 
 	line-height: 32px; 
-	margin: 0 0 18px; 
+	margin: 0 auto; 
 	text-align: center; 
-	text-shadow: 1px 0 0 #fff; 
+	text-shadow: 1px 0 0 #fff;
+	animation: typing 3s steps(35), blink-caret 1s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #2CA4B0 }
 }
 
 p {
